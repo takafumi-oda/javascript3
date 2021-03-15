@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="javascript3.css">
+        <title>お野菜フィルター</title>
+    </head>
+
+    <body>
+      <div class = "top">
+        <div class = "content-width">
+          <h1>お野菜フィルター</h1>
+          <p>入力した検索ワードを含まないお野菜は非表示になるよ。</p>
+        </div>
+      </div>
+      <div class = "main">
+        <div class = "content-width">
+          <form>
+            <input id = "search-text" type ="text" placeholder="検索ワードを入力">
+          </form>
+          <div class = "vegetables"> <!--https://illustimage.com/matome/?id=12-->
+            <div class = "vegetable">
+              <img src ="./vagetables_img/carrot.png" alt = "にんじん"></img>
+              <div class = "keyword-list">
+                <p>にんじん</p>
+                <p>オレンジ</p>
+                <p>一年中</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/cabbage.png" alt = "キャベツ"></img>
+              <div class = "keyword-list">
+                <p>キャベツ</p>
+                <p>きみどり</p>
+                <p>春</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/tomato.png" alt = "トマト"></img>
+              <div class = "keyword-list">
+                <p>トマト</p>
+                <p>あか</p>
+                <p>夏</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/cucumber.png" alt = "きゅうり"></img>
+              <div class = "keyword-list">
+                <p>きゅうり</p>
+                <p>みどり</p>
+                <p>夏</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/eggplant.png" alt = "なす"></img>
+              <div class = "keyword-list">
+                <p>なす</p>
+                <p>むらさき</p>
+                <p>夏</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/onion.png" alt = "たまねぎ"></img>
+              <div class = "keyword-list">
+                <p>たまねぎ</p>
+                <p>ちゃいろ</p>
+                <p>一年中</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/broccoli.png" alt = "ブロッコリー"></img>
+              <div class = "keyword-list">
+                <p>ブロッコリー</p>
+                <p>みどり</p>
+                <p>冬</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/sweet_potato.png" alt = "さつまいも"></img>
+              <div class = "keyword-list">
+                <p>さつまいも</p>
+                <p>むらさき</p>
+                <p>秋</p>
+              </div>
+            </div>
+            <div class = "vegetable">
+              <img src ="./vagetables_img/corn.png" alt = "とうもろこし"></img>
+              <div class = "keyword-list">
+                <p>とうもろこし</p>
+                <p>きいろ</p>
+                <p>夏</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="javascript3.js"></script>
+    </body>
+</html>
